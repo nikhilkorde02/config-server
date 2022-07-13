@@ -6,15 +6,3 @@ eureka:
       defaultZone: http://localhost:8301/eureka
   instance:
     hostname: localhost
- 
- 
- 
- microservice:
-  db-service:
-    endpoints:
-      endpoint:
-        uri: http://db-service/rest/db/**
-  stock-service:
-    endpoints:
-      endpoint:
-        uri: http://stock-service/rest/stock/**
